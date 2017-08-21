@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>To Do List</title>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="makeList.js"></script>
+</head>
+<body onload = 'makeClose()''>
+	<div id="content">
+		<div id="inputData">
+		<h1> My To Do List </h1>
+			<input type="text" id="input" placeholder="Title...">
+			<button id = "addBtn" onclick="newElement()">ADD</button>
+		</div>
+		<ul id="list">
+			 <li>Zrobic to do list</li>
+  			 <li class="checked">Zaznaczyc zadanie</li>
+		</ul>
+	</div>
+</body>
+</html>
